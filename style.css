@@ -8,7 +8,9 @@
 :root {
     --corAzulDnc: #0C70F2;
     --corHoverNav: #a8aaac;
-    --corBrancoDnc: white;
+    --corBrancoDnc: #FFFFFF;
+    --corPlaceholder: #39393980;
+    --BackgroundGrayDnc: #303030;
 }
 
 .margin {
@@ -19,7 +21,7 @@
 /* --HEADER-- */
 
 nav {
-    background-color: #303030;
+    background-color: var(--BackgroundGrayDnc);
     border-bottom: 1px solid var(--corHoverNav);
 }
 
@@ -86,7 +88,7 @@ main{
 /* --SECTION-- */
 
 section {
-    background-color: #303030;
+    background-color: var(--BackgroundGrayDnc);
 }
 #forms {
     display: flex;
@@ -121,6 +123,9 @@ section {
         input[type="checkbox"] {
             transform: scale(1.4);
         }
+        input::placeholder {
+            color: var(--corPlaceholder);
+        }
         .inputName {
             border-radius: 10px;
             padding: 10px;
@@ -131,7 +136,7 @@ section {
             padding: 5px;
             margin-top: 30px;
             border: none;
-            background-color: #0C70F2E5;
+            background-color: var(--corAzulDnc);
             font-weight: 600;
             font-size: 22px;
             line-height: 38.73px;
@@ -169,7 +174,7 @@ footer {
             font-weight: 800;
             font-size: 25px;
             letter-spacing: 0%;
-            background-color: #303030;
+            background-color: var(--BackgroundGrayDnc);
             margin-bottom: 15px;
             border-radius: 10px;
             padding: 10px;
