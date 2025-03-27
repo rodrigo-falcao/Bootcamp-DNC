@@ -2,7 +2,8 @@
 
 Este projeto é uma página web responsiva desenvolvida para o Bootcamp DNC. Ele foi criado para divulgar o evento e possibilitar a inscrição dos interessados, oferecendo uma interface intuitiva e adaptável para diferentes dispositivos.
 
-Veja o projeto online: [Landing Page DNC](https://rodrigo-falcao.github.io/Bootcamp-DNC/)
+## 🌍 Acesse o Projeto
+🔗 [Clique aqui para acessar](https://rodrigo-falcao.github.io/Bootcamp-DNC/)
 
 ## 📌 Descrição
 
@@ -26,12 +27,7 @@ A página contém:
 - **CSS3:** Estilização, Flexbox, Media Queries para responsividade e gradientes.
 - **Google Fonts:** Fonte "Inter" para uma tipografia moderna.
 
-## 🛠️ Como Executar
-
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/rodrigo-falcao/Bootcamp-DNC.git
+🔹 **Projeto criado para aprendizado e prática!** 🚀 Sinta-se à vontade para contribuir ou sugerir melhorias. 😊
 
 ## 📸 Screenshots
 
